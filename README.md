@@ -35,7 +35,7 @@
 3. Create roboflow_api_key.text & Paste Key in roboflow.text.
 4. Run
 
-![1732093320412](image/README/1732093320412.png)
+![roboflow](image/README/roboflow.png)
 
 ## Hardware
 
