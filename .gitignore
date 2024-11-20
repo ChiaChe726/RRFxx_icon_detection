@@ -1,3 +1,9 @@
+runs/
+Dateset/
+HHE-6/
+roboflow_api_key.text
+*.pt
+
 # Gradle files
 .gradle/
 build/
