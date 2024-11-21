@@ -1,4 +1,5 @@
-runs/
+runs/detect
+runs/train*
 Dateset/
 HHE-6/
 roboflow_api_key.text
@@ -37,3 +38,5 @@ google-services.json
 
 # Android Profiling
 *.hprof
+image/image001.jpg
+image/image002.jpg
