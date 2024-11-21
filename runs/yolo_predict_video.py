@@ -6,14 +6,14 @@ from ultralytics import YOLO
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # CPU only
 
 # Load the YOLO model
-train_set = "train1"
+train_set = "train3090"
 model = YOLO(os.path.join(f"runs/{train_set}/weights/best.pt"))
 
 # Open the video file
 # video_name = "Lexus｜Apple CarPlay & Android Auto操作"
 video_name = "剪輯_【Apple CarPlay & Android Auto連線教學、異常狀況排除】只要一招！馬上把BMW iDriv"
 
-video_path = os.path.join("/home/hhe/Documents", f"{video_name}.mp4")
+video_path = os.path.join("video", f"{video_name}.mp4")
 cap = cv2.VideoCapture(video_path)
 
 # Get video properties
@@ -22,7 +22,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))  # Width of the frames
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))  # Height of the frames
 
 # Define the codec and create VideoWriter object
-output_path = os.path.join("/home/hhe/Documents",
+output_path = os.path.join("runs/detect",
                            f"{train_set}_output_{video_name}.mp4")
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")  # Codec for .mp4 files
 out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))

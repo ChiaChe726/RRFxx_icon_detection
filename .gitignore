@@ -4,6 +4,10 @@ Dateset/
 HHE-6/
 roboflow_api_key.text
 *.pt
+*.mp4
+*_ncnn_model
+*.onnx
+*.torchscript
 
 # Gradle files
 .gradle/
