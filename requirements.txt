@@ -1,3 +1,5 @@
 Roboflow
 Ultralytics
 opencv-python==4.10.0.84
+cap_from_youtube
+imread-from-url
