@@ -10,8 +10,9 @@ train_set = "train3090"
 model = YOLO(os.path.join(f"runs/{train_set}/weights/best.pt"))
 
 # Open the video file
-# video_name = "Lexus｜Apple CarPlay & Android Auto操作"
-video_name = "剪輯_【Apple CarPlay & Android Auto連線教學、異常狀況排除】只要一招！馬上把BMW iDriv"
+# video_name = "Android Auto"
+video_name = "Lexus｜Apple CarPlay & Android Auto操作"
+# video_name = "剪輯_【Apple CarPlay & Android Auto連線教學、異常狀況排除】只要一招！馬上把BMW iDriv"
 
 video_path = os.path.join("video", f"{video_name}.mp4")
 cap = cv2.VideoCapture(video_path)
