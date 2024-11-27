@@ -1,6 +1,6 @@
 runs/detect
 runs/train*
-Dateset/
+datasets/
 HHE-6/
 roboflow_api_key.text
 *.pt
@@ -44,3 +44,4 @@ google-services.json
 *.hprof
 image/image001.jpg
 image/image002.jpg
+runs/yolov8/__pycache__/
