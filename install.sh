@@ -48,7 +48,7 @@ fi
 
 # Create YOLO environment
 echo "Creating YOLO Conda environment..."
-conda create -n yolo python=3.9 -y
+conda create -n yolo python=3.10 -y
 conda activate yolo
 
 # Install Python dependencies
