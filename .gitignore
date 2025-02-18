@@ -1,6 +1,6 @@
 runs/detect
 runs/train*
-datasets/
+Datasets/
 HHE-6/
 roboflow_api_key.text
 *.pt
@@ -8,6 +8,9 @@ roboflow_api_key.text
 *_ncnn_model
 *.onnx
 *.torchscript
+*.pyc
+*.engine
+*.cache
 
 # Gradle files
 .gradle/
@@ -45,3 +48,4 @@ google-services.json
 image/image001.jpg
 image/image002.jpg
 runs/yolov8/__pycache__/
+
